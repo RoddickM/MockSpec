@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* ------------------------ Navbar ------------------------ */
 .nav__link a {

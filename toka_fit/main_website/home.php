@@ -28,7 +28,7 @@
                     <h4><b>TRAIN</b></h4>
                     <p>Try our award winning personal trainers 
                         and start changing your life today.</p>
-                    <button class="card-button">PERSONAL TRAINER</button>
+                    <a href="personal_trainer.php"><button class="card-button">PERSONAL TRAINER</button></a>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
                     <h4><b>KNOW MORE</b></h4>
                     <p>Have a look at our in depth articles 
                         discussing healthy living and fitness.</p>
-                    <button class="card-button">READ HERE</button>
+                    <a href="article.php"><button class="card-button">READ HERE</button></a>
                 </div>
             </div>
         </section>
