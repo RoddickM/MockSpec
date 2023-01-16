@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles/personal_trainer_styles.css" />
-        <title>Home</title>
+        <title>Personal Trainer</title>
     </head>
     <body>
         <?php include('includes/navbar.html') ?>

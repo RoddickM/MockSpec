@@ -16,17 +16,17 @@
         <section class="card-container">
             <div class="card">
                 <div class="card-content">
-                    <h4><b>LEARN SO MUCH</b></h4>
+                    <h4><b>LEARN FITNESS & HEALTH</b></h4>
                     <p>Explore our selection of high quality 
                         videos teaching you fitness and healthy living tips.</p>
-                    <button class="card-button">WATCH HERE</button>
+                    <a href="video.php"><button class="card-button">WATCH HERE</button></a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-content">
                     <h4><b>TRAIN</b></h4>
-                    <p>Try our award winning personal trainers 
+                    <p>Train with our award winning personal trainers 
                         and start changing your life today.</p>
                     <a href="personal_trainer.php"><button class="card-button">PERSONAL TRAINER</button></a>
                 </div>

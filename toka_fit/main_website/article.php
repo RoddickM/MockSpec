@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles/article_styles.css" />
-        <title>Home</title>
+        <title>Articles</title>
     </head>
     <body>
         <?php include('includes/navbar.html') ?>
@@ -12,7 +12,7 @@
                 <div class="projcard-innerbox">
                     <img class="projcard-img" src="includes/images/article_muscle.jpg" />
                     <div class="projcard-textbox">
-                        <div class="projcard-title">How to build more muscles</div>
+                        <div class="projcard-title">How to Build More Muscles</div>
                         <div class="projcard-subtitle">By Derek Kered | July 28th 2022</div>
                         <div class="projcard-bar"></div>
                         <div class="projcard-description">When it comes to physique improvements, muscle building is often a top priority.
@@ -35,10 +35,9 @@
                         <div class="projcard-title">How to Cook Healthy</div>
                         <div class="projcard-subtitle">By Derek Kered | July 21st 2022</div>
                         <div class="projcard-bar"></div>
-                        <div class="projcard-description">When you prepare and cook meals at home, 1) you are in control of what you and your family are eating, 
-                                                            2) you can get inventive and inspired with your culinary creations, and 3) you save money.
-                                                            Pretty much a no-brainer. So let us bring cooking back to life!
-                                                            You do not have to be...
+                        <div class="projcard-description">Cooking at home, generally, is probably the most important cooking tip there is. 
+                                                            Why? Because in home cooking, the cook, you, is in charge of what is going into your meal, 
+                                                            the freshness of the ingredients, and the amount of items that add flavor and...
                                                             </div>
                         <div class="projcard-tagbox">
                             <span class="projcard-tag">Food</span>
@@ -55,10 +54,11 @@
                         <div class="projcard-title">Why Jogging 10 Minutes a Day Improves Health</div>
                         <div class="projcard-subtitle">By Derek Kered | July 14th 2022</div>
                         <div class="projcard-bar"></div>
-                        <div class="projcard-description">Somewhere between a quad-burning, sweat-lathered sprint and a leisurely stroll, there is a sweet spot known as the jog.
-                                                            Jogging is often defined as running at a pace less than 6 miles per hour (mph), and it has some significant benefits 
-                                                            for people who want to improve their health without...
-                                                            </div>
+                        <div class="projcard-description">Yes, you might have run a mile in high school. But if you do not run regularly 
+                                                            these days, you might not realize all the benefits of running. 
+                                                            So, we are here to give you a reminder of all the advantages you will gain from a consistent run routine. 
+                                                            Research proves that regular exercise, at least...
+                                                                                            </div>
                         <div class="projcard-tagbox">
                             <span class="projcard-tag">Fitness</span>
                             <span class="projcard-tag">Health</span>
