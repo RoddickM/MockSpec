@@ -8,16 +8,16 @@
   	<?php include('includes/navbar.html') ?>
 	<div class="login-box">
       <h1>Login</h1>
-      <form>
+      <form action="login_action.php" method="POST">
         <label>Email</label>
-        <input type="email" placeholder="e.g, johndoe1999@fmail.com" />
+        <input type="email" name="email" placeholder="e.g, johndoe1999@fmail.com" />
         <label>Password</label>
-        <input type="password"/>
-        <input type="button" value="Submit" />
+        <input type="password" name="password" />
+        <button class="submit" type="submit" value="Submit" />LOG IN</button>
       <closeform></closeform></form>
     </div>
     <p class="para-2">
-      Not have an account? <a href="signup.html">Sign Up Here</a>
+      Not have an account? <a href="signup.php">Sign Up Here</a>
     </p>
   </body>
 </html>

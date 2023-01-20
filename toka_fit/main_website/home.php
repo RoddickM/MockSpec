@@ -9,7 +9,7 @@
         <section class="hero-image">
             <div class="hero-text">
                 <p class="hero-title">TOKA FITNESS</p>
-                <button class="join-now">JOIN NOW</button>
+                <a href="signup.php"><button class="join-now">JOIN NOW</button></a>
             </div>
         </section>
 
