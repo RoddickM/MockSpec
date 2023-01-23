@@ -1,0 +1,39 @@
+hero-image {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: #00916E;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+    color: #00916E;
+    border: 6px solid
+  }
+      
+.hero-text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+
+.hero-title{
+    font-size: 100px;
+    padding-bottom: 30px;
+    color: #00916E;
+}
+
+.hero-countdown{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #00916E;
+}
