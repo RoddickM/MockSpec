@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Form</title>
+    <title>Sign Up</title>
     <link href="styles/signup.css" type="text/css" rel="stylesheet">
   </head>
   <body>

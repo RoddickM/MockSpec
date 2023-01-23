@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 
     #Ensure login was successful and get associated user details
     #of id, first name and last name
-    list($check, $data) = validate($conn, $_POST['email'], $_POST['password']);
+    list($check, $data) = validate($conn, $_POST['email']);
 
     #Set the user details as session data and load a homepage, or assign
     #error message
@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         $_SESSION['first_name'] = $data['firstname'];
         $_SESSION['last_name'] = $data['lastname'];
 
-        load('home.php');
+        load('video.php');
     }
     else
     {
