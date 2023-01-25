@@ -14,8 +14,9 @@
             require_once "login_tools.php";
             load();
             }
+            ?>
         
-            echo'<section class="card-container">
+            <section class="card-container">
                 <div class="card">
                     <iframe width="440" height="315" 
                     src="https://www.youtube.com/embed/GB9oSPu0O0A" 
@@ -52,8 +53,8 @@
                         <h4><b>5 Minute Warm Up (No Equipment)</b></h4> 
                     </div>
                 </div>
-            </section>';
-        ?>
+            </section>
+        
 
         <?php include('includes/footer.html') ?>
     </body>

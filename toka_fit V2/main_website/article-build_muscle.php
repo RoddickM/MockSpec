@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/article-build_muscle.css">
+    <link rel="stylesheet" href="styles/article_page_styles.css">
     <title>How to Build More Muscles</title>
 </head>
     <body>
         <?php include('includes/navbar.html') ?>
-        <section class="hero-image">
-            <!-- <img src="includes/images/article_muscle.jpg"> -->
+        <section class="hero-image-1">
         </section>
         <main role="main">
             <div class="content">

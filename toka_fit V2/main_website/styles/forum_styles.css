@@ -1,7 +1,11 @@
+.root{
+    height: 80vh;
+}
+
 hero-image {
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 100vh;
     align-self: center;
     background-repeat: no-repeat;
     background-size: cover;

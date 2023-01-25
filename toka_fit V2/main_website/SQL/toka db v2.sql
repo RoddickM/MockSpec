@@ -3,9 +3,9 @@ CREATE TABLE USERS (
   firstname VARCHAR(25),
   lastname VARCHAR(25),
   email VARCHAR(25),
-  phone_no INT,
+  phone_no VARCHAR(11),
   post_code VARCHAR(8),
-  password VARCHAR(20)
+  password VARCHAR(150)
 );
 
 CREATE TABLE FORUM_POST (

@@ -17,13 +17,13 @@ function load($page = 'login.php')
 }
 
 #Validate user login details as correct or display error messages
-function validate($conn, $email = '')
+function validate($conn, $email = '', $password= '')
 {
 
     #Store an error message if the email and password are not found
     #in the database table, or return the associated user id, first name,
 
-    $q = "SELECT usersID, firstname, lastname FROM USERS WHERE email = '".$email."'";
+    $q = "SELECT usersID, firstname, lastname FROM USERS WHERE email = '".$email."' AND PASSWORD = '".sha1($password)."'";
     $r = mysqli_query($conn, $q);
 
     if(mysqli_num_rows($r)==1)
