@@ -1,0 +1,44 @@
+.masthead-1 {
+  padding: 11em 0;
+  background-image: url('../includes/images/trainer_one.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 40vh;
+}
+
+.masthead-2 {
+    padding: 11em 0;
+    background-image: url('../includes/images/trainer_two.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 40vh;
+  }
+
+.masthead-3 {
+    padding: 11em 0;
+    background-image: url('../includes/images/trainer_three.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 40vh;
+  }
+
+/* Text Declarations for Sections */
+
+.container p li{
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  font-size: 100px;
+}
+
+/* Section Styling */
+
+.introduction-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}

@@ -20,6 +20,15 @@ body {
 	border-radius: 3px;
 	background-color: white;
   }
+
+  .login-box-videos {
+	width: 360px;
+	height: 320px;
+	margin: auto;
+	margin-top: 450px;
+	border-radius: 3px;
+	background-color: white;
+  }
   
   h1 {
 	text-align: center;
@@ -70,7 +79,7 @@ body {
 	margin-top: -10px;
   }
   .para-2 a {
-	color: #FF934F;
+	color: #d19976;
   }
   
   

@@ -3,8 +3,8 @@
    
     $servername = "localhost"; 
     $username = "root"; 
+    // When server is up please use password 8cruQ61K
     $password = "";
-   
     $database = "toka_db";
    
      // Create a connection 
