@@ -1,3 +1,4 @@
+/* margin and padding 0 to make sure that the page fills the whole screen with no gaps */
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ body{
     align-items: center;
   }
 
-/* nav styles */
+/* navbar styiling */
 
 .nav {
     display: flex;
@@ -78,6 +79,8 @@ body{
     display: none;
   }
 
+  /* section of code for when screen size is over 11000, the hamburger is hidden */
+
   @media screen and (min-width: 1100px) {
     .nav__link {
       display: block;
@@ -98,6 +101,8 @@ body{
   }
 
 /* ------------------------ Footer ------------------------ */
+/* Due to issues with previous footer designs, 
+we have decided to keep it simple as thus one can be made responsive will all pages */
 footer{
   background-color: #F1F1F1;
   color: #00916E;

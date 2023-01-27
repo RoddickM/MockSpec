@@ -1,4 +1,5 @@
-/* ------------------------ Hero ------------------------ */
+/* ------------------------ Hero Image Styles ------------------------ */
+/* Hero image css */
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -11,19 +12,20 @@
     align-items: center;
     justify-content: center;
 }
-      
+
+/* Aligns content to the center of the image */
 .hero-text {
-    font-size: 1.4rem;
     text-align: center;
-    color: white;
 }
 
+/* Styles the big text of the hero image */
 .hero-title{
     font-size: 100px;
     padding-bottom: 30px;
     color: #00916E;
 }
 
+/* Styles the join now button on the hero */
 .join-now{
     background-color: #00916E;
     color: #F1F1F1;
@@ -34,14 +36,15 @@
     transition-duration: 0.4s;
 }
 
+/* Styles what happens when user hover their mouse on the button */
 .join-now:hover{
     background-color: #F1F1F1;
     color: #00916E;
     border: 2px solid #00916E
 }
 
-/* ------------------------ Cards ------------------------ */
-
+/* ------------------------ Cards Styles ------------------------ */
+/* Styles the section */
 .sub-section{
     display: flex;
     flex-direction: column;
@@ -49,17 +52,20 @@
     padding: 80px;
 }
 
+/* Container for the card so that it displays correctly */
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style for the card itself */
 .project-card{
     width: 350px;
     height: 357px;
     box-shadow: 5px 5px 20px rgb(154, 154, 154);
 }
 
-.project-container{
-    display: flex;
-    justify-content: space-around;
-}
-
+/* Styling the card title */
 .card-title{
     font-weight: 700;
     font-size: 36px;
@@ -69,6 +75,7 @@
     padding-bottom: 20px;
 }
 
+/* Styling the title of the card */
 .subtext{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -77,6 +84,8 @@
     line-height: 24px;
 }
 
+/* Media code to make it more responsive to smaller screens */
+/* It makes the card stack on top of each other */
 @media only screen and (max-width: 1210px) {
     .project-container{
         display: block;
@@ -85,11 +94,13 @@
     }
 }
 
+/* Styles the horizontal line that separates the title, text and button */
 hr {
     margin-left: 20px;
     margin-right: 20px;
 }
 
+/* Styles the button at the bottom of the card */
 .card-link {
     background-color: #FF934F;
     color: #ffffff;
@@ -104,6 +115,7 @@ hr {
     text-decoration: none;
 }
 
+/* same as above but it's for when the button is being hovered */
 .card-link:hover{
     background-color: #ffffff;
     color: #FF934F;
