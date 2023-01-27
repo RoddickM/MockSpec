@@ -67,6 +67,12 @@ body {
 	color: white;
 	font-size: 18px;
   }
+
+.submit:hover{
+	background-color: rgb(198, 198, 198);
+	color: #00916E;
+}
+
   p {
 	text-align: center;
 	padding-top: 20px;

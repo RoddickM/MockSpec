@@ -6,7 +6,6 @@
     </head>
     <body>
         <?php include('includes/navbar.html') ?>
-        <div class="root">
 
             <div class="projcard-container">
                 <a href="article-build_muscle.php">
@@ -75,7 +74,6 @@
                 </a>
             </div>
 
-        </div>
         <?php include('includes/footer.html') ?>
     </body>
 </html>

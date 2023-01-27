@@ -11,10 +11,10 @@
       <h2>Please Login to Access Videos</h2>
       <form action="login_action_to_videos.php" method="POST">
         <label>Email</label>
-        <input type="email" name="email" placeholder="e.g, johndoe1999@fmail.com" />
+        <input type="email" name="email" placeholder="e.g, johndoe1999@fmail.com" required/>
         <label>Password</label>
-        <input type="password" name="password" />
-        <button class="submit" type="submit" value="Submit" />LOG IN</button>
+        <input type="password" name="password" required/>
+        <button class="submit" type="submit" value="Submit"/>LOG IN</button>
       <closeform></closeform></form>
     </div>
     <p class="para-2">

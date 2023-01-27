@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php include('includes/navbar.html') ?>
-        <div class="root">
+        
             <section  class="sub-section">
                 <div class="project-container">
 
@@ -33,7 +33,7 @@
 
                 </div>
             </section>
-        </div>
+        
         <?php include('includes/footer.html') ?>
     </body>
 </html>

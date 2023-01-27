@@ -1,9 +1,9 @@
-<!-- File is placed outside the main website folder for securoty reasons and make sure users does not access the database unauthorised -->
+<!-- File is placed outside the main website folder for security reasons and make sure users does not access the database unauthorised -->
 <?php
    
     $servername = "localhost"; 
     $username = "root"; 
-    // When server is up please use password 8cruQ61K
+    // Password will be added to the field below 
     $password = "";
     $database = "toka_db";
    

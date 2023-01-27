@@ -10,9 +10,9 @@
       <h1>Login</h1>
       <form action="login_action.php" method="POST">
         <label>Email</label>
-        <input type="email" name="email" placeholder="e.g, johndoe1999@fmail.com" />
+        <input type="email" name="email" placeholder="e.g, johndoe1999@fmail.com" required/>
         <label>Password</label>
-        <input type="password" name="password" />
+        <input type="password" name="password" required/>
         <button class="submit" type="submit" value="Submit" />LOG IN</button>
       <closeform></closeform></form>
     </div>

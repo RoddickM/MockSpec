@@ -1,12 +1,10 @@
-.root{
-  height: 80vh;
-}
-
 .sub-section{
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  margin-top: 20vh;
+  margin-bottom: 25vh;
 }
 
 .project-card{
