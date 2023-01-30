@@ -8,10 +8,14 @@
     <title>Why Jogging is Good for You</title>
 </head>
     <body>
+        <!-- PHP include navigation bar code -->
         <?php include('includes/navbar.html') ?>
+        <!-- This is the hero image for the article -->
         <section class="hero-image-3">
         </section>
+        <!-- This is the main article body with the text -->
         <main role="main">
+            <!-- container for the content -->
             <div class="content">
                 <h1>Why Jogging is Good for You</h1>
                 <p>Yes, you might have run a mile in high school. But if you don&rsquo;t run regularly these days, you might not realize all the benefits of running. So, we&rsquo;re here to give you a reminder of all the advantages you&rsquo;ll gain from a consistent run routine.</p>

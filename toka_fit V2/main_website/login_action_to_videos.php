@@ -1,4 +1,8 @@
 <?php
+
+# NOTE: This login file is specifically made for the login barrier for the videos page
+# This is a temporary fix as future developments should make this function more modular and simpler
+
 #Test to see if the login form has been submitted
 if($_SERVER['REQUEST_METHOD']=='POST')
 {

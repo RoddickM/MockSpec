@@ -1,3 +1,6 @@
+/* The CSS in this file is derived from CSS for the cards in the home page */
+
+/* Sub section styling for the container of the card itself */
 .sub-section{
   display: flex;
   flex-direction: column;
@@ -7,23 +10,27 @@
   margin-bottom: 25vh;
 }
 
+/* Styling the card itself */
 .project-card{
   width: 350px;
   height: 357px;
   box-shadow: 5px 5px 20px rgb(154, 154, 154);
 }
 
+/* Makes sure that teh card expands when the mouse hovers over it */
 .project-card:hover{
   box-shadow: 5px 5px 20px rgb(154, 154, 154);
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
 
+/* Styling the contaier for the card */
 .project-container{
   display: flex;
   justify-content: space-around;
 }
 
+/* Style for card title */
 .card-title{
   font-weight: 700;
   font-size: 36px;
@@ -33,16 +40,15 @@
   padding-bottom: 20px;
 }
 
+/* Style for card image */
 .project-image {
   margin-top: 25px;
   width: 350px;
   border-radius: 0px;
 }
 
-.project-container a{
-  text-decoration: none;
-}
-
+/* Function for when screen is less than a certain width, it change the way
+the card is being displayed */
 @media only screen and (max-width: 1100px) {
   .project-container{
       display: block;

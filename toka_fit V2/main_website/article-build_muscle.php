@@ -8,10 +8,14 @@
     <title>How to Build More Muscles</title>
 </head>
     <body>
+        <!-- PHP include navigation bar code -->
         <?php include('includes/navbar.html') ?>
+        <!-- This section shows the image for article -->
         <section class="hero-image-1">
         </section>
+        <!-- This is the main article body with the text -->
         <main role="main">
+            <!-- container for the content -->
             <div class="content">
                 <h1>How to Build More Muscles</h1>
                 <p>When it comes to physique improvements, muscle building is often a top priority.</p>

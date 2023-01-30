@@ -1,3 +1,8 @@
+/* Since all of the articles use the same CSS file for styling and the fact that their images are
+from this CSS file and not the HTML file, the hero-image class tags below are for different article pages*/
+
+/* Hero image for article 1 on building muscle */
+/* Making it a hero image is the easiest method of having an image in the article. */
 .hero-image-1{
     display: flex;
     flex-direction: column;
@@ -11,6 +16,7 @@
     justify-content: center;
 }
 
+/* Hero image for article 2 on healthy eating and cooking */
 .hero-image-2{
     display: flex;
     flex-direction: column;
@@ -24,6 +30,7 @@
     justify-content: center;
 }
 
+/* Hero image for article 3 on the benefits of jogging */
 .hero-image-3{
     display: flex;
     flex-direction: column;
@@ -37,10 +44,11 @@
     justify-content: center;
 }
 
-a{color: #000;}
+/* Header colours */
 h1, h2, h3{
     color: #00916E;
 }
+/* Header 1 and 2 tags styling */
 h1{
 	font-size: 2.6rem;
 	line-height: 2.6rem;
@@ -48,12 +56,16 @@ h1{
 h2{
     line-height: 2.6rem;
 }
+
+/* Styling for the article's content are and making sure it is centered */
 .content{
 	margin: 0 auto;
 	max-width: 90%;
 	width: 720px;
     font-size: 20px;
 }
+
+/* Styling the main body of text making it have a slight shadow for aesthetic purposes */
 main{
 	padding: 1% 0;
 	position: relative;

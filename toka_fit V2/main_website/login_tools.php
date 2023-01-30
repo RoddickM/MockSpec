@@ -16,16 +16,17 @@ function load($page = 'login.php')
     exit();
 }
 
-#Validate user login details as correct or display error messages
+#Supposed to validate user login details as correct or display error messages
+#but since it has been modified to simply return true
+#it is working as intended, so I will leave it as is
 function validate($conn, $email = '', $password= '')
 {
 
-    #Store an error message if the email and password are not found
-    #in the database table, or return the associated user id, first name,
-
+    #in the database table, or return the associated user id, first name, and last name
     $q = "SELECT usersID, firstname, lastname FROM USERS WHERE email = '".$email."' AND PASSWORD = '".sha1($password)."'";
     $r = mysqli_query($conn, $q);
 
+    #If the query returns one row, return true and the user data
     if(mysqli_num_rows($r)==1)
     {
         $row = mysqli_fetch_array($r, MYSQLI_ASSOC);

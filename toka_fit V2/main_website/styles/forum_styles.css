@@ -1,41 +1,42 @@
-.root{
-    height: 80vh;
-}
-
-hero-image {
+/* Mapping out the section for the coming soon content */
+.coming-soon-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     align-self: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: rgb(252, 252, 252);
     color: #00916E;
 }
 
+/* Styling the line separating the text and the count down */
 hr {
     margin: auto;
     width: 40%;
     color: #00916E;
     border: 6px solid
   }
-      
-.hero-text {
+
+/* Container for the text within teh section */
+.coming-soon-text {
     font-size: 1.4rem;
     text-align: center;
     color: white;
 }
 
-.hero-title{
+/* Styling for the big coming soon text */
+.coming-soon-title{
     font-size: 100px;
     padding-bottom: 30px;
     color: #00916E;
 }
 
-.hero-countdown{
+/* Styling for the count down itself */
+.coming-soon-countdown{
     font-size: 80px;
     padding-top: 30px;
     padding-bottom: 30px;

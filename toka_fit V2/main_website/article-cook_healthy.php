@@ -8,10 +8,14 @@
     <title>How to Cook Healthy at Home</title>
 </head>
     <body>
+         <!-- PHP include navigation bar code -->
         <?php include('includes/navbar.html') ?>
+        <!-- This section shows the image for article -->
         <section class="hero-image-2">
         </section>
+        <!-- This is the main article body with the text -->
         <main role="main">
+            <!-- container for the content -->
             <div class="content">
                 <h1>How to Cook Healthy at Home</h1>
                 <p>Cooking at home, generally, is probably the most important cooking tip there is. Why? Because in home cooking, the cook &ndash; you &ndash; is in charge of what is going into your meal, the freshness of the ingredients, and the amount of items that add flavor and calories (oil and other fats, sugar, salt, etc.).</p>

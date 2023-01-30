@@ -1,8 +1,9 @@
+/* Giving the background a different colour for contrast */
 body {
 	background-color: #00916E;
-	font-family: "Roboto", sans-serif;
   }
   
+  /* Signup box styling */
   .signup-box {
 	width: 360px;
 	height: 680px;
@@ -12,6 +13,7 @@ body {
 	border-radius: 3px;
   }
   
+  /* Login box styling */
   .login-box {
 	width: 360px;
 	height: 280px;
@@ -21,6 +23,8 @@ body {
 	background-color: white;
   }
 
+  /* Styling for the login box on the videos page - slightly different height
+  than the one on the login page */
   .login-box-videos {
 	width: 360px;
 	height: 320px;
@@ -30,15 +34,17 @@ body {
 	background-color: white;
   }
   
+  /* Styling for the headers */
   h1 {
 	text-align: center;
 	padding-top: 15px;
   }
   
-  h4 {
+  h4, h3 {
 	text-align: center;
   }
   
+  /* Styling for the form */
   form {
 	width: 300px;
 	margin-left: 20px;
@@ -58,6 +64,8 @@ body {
 	border-radius: 6px;
 	outline: none;
   }
+
+  /* Styling the submit button */
 .submit{
 	width: 320px;
 	height: 35px;
@@ -73,6 +81,7 @@ body {
 	color: #00916E;
 }
 
+/* This style is for the tex underneath for the privacy policies */
   p {
 	text-align: center;
 	padding-top: 20px;
@@ -84,8 +93,9 @@ body {
 	font-size: 15px;
 	margin-top: -10px;
   }
+  /* Styling for the signup/login page link */
   .para-2 a {
-	color: #d19976;
+	color: #d0d0d0;
   }
   
   

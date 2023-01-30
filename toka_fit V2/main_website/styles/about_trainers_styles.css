@@ -1,12 +1,21 @@
+/* Since all of the personal trainers' about page use the same CSS file for styling 
+and the fact that their images are from this CSS file and not the HTML file, 
+the masthead class tags below are for different article pages*/
+
+/* NOTE: This CSS is not the same as the one for article pages, though the end result is the same,
+the different ways the image reacts to being scrolled down is the main reason for differen CSS for the page image */
+
+/* Hero image for Mr Robert Lee's Profile */
 .masthead-1 {
-  padding: 11em 0;
-  background-image: url('../includes/images/trainer_one.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  height: 40vh;
+	padding: 11em 0;
+	background-image: url('../includes/images/trainer_one.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: 40vh;
 }
 
+/* Hero image for James Douglas' Profile */
 .masthead-2 {
     padding: 11em 0;
     background-image: url('../includes/images/trainer_two.jpg');
@@ -16,6 +25,7 @@
     height: 40vh;
   }
 
+/* Hero image for Mr Don Joe's Profile */
 .masthead-3 {
     padding: 11em 0;
     background-image: url('../includes/images/trainer_three.jpg');
@@ -25,20 +35,20 @@
     height: 40vh;
   }
 
-/* Text Declarations for Sections */
-
+/* Text Declarations for Sections - mostly the paragaraphs and lists */
 .container p li{
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-size: 100px;
 }
 
-/* Section Styling */
-
+/* Styling the different named sections to the same style */
+/* The different class names for each section is for better readbility of code */
 .introduction-section,
-.questions-section {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+.qualifications-section,
+.contact-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
 }

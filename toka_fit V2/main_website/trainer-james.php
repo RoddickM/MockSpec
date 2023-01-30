@@ -8,11 +8,16 @@
         <title>James Douglas</title>
     </head>
     <body>
+        <!-- TEMPORARY PAGE FOR TRAINERS TO DISPLAY WHO THEY ARE, THEIR SPECIALITY AND QUALIFICATIONS -->
+
+        <!-- PHP include navigation bar code -->
         <?php include('includes/navbar.html') ?>
+        <!-- header tag for the image of the trainer -->
         <header class="masthead-2">
         </header>
 
-        <section class="introduction-section">
+        <!-- section for the trainer's contact details -->
+        <section class="contact-section">
             <div class="container">
                 <h1>Contacts</h1>
                 <p>Email: jdouglas@outlook.com</p>
@@ -20,6 +25,7 @@
             </div>
         </section>
 
+        <!-- section for the trainer's introduction and who they are -->
         <section class="introduction-section">
             <div class="container">
                 <h1>James Douglas</h1>
@@ -59,7 +65,8 @@
             </div>
         </section>
 
-        <section class="questions-section">
+        <!-- section for the trainer's speciality and qualifications -->
+        <section class="qualifications-section">
             <div class="container">
                 <h1>Professional Information</h1>
                 <br>
@@ -81,6 +88,8 @@
 
             </div>
         </section>
+
+        <!-- PHP include footer code -->
         <?php include('includes/footer.html') ?>
     </body>
 </html>
